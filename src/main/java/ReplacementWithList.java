@@ -14,7 +14,7 @@ public class ReplacementWithList {
     public static List<String> removeAmpersandWithList(List<String> newList) {
         List<String> modifiedList = new ArrayList<>();
         for(String element: newList){
-            modifiedList.add(Replacement.removeAmpersandWithReplace(element));
+            modifiedList.add(Replacement.removeAmpersandWithPatternMatcher(element));
         }
         return modifiedList;
     }
