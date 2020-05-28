@@ -3,6 +3,16 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ *  I knew that I needed to test the performance of each of the four implementations, so I wrote a test
+ *  for each of the methods I created in the Replacement class. Only running each test once wouldn't yield a
+ *  sufficient data set to work off of, so I decided to run each test ten times. After noting the results, I
+ *  calculated both a simple average as well as an average with the outliers removed. I wanted to capture the
+ *  most accurate picture of the data so that I could make an informed decision about which worked best on this
+ *  use case. It was interesting to note that the highly touted Apache Commons Lang replace() method finished
+ *  well behind the other three implementations - perhaps it works better on longer inputs?
+ **/
+
 public class ReplacementTest {
 
     //Test results in milliseconds - 16ms, 18ms, 16ms, 19ms, 17ms, 15ms, 29ms, 14ms, 26ms, 13ms
