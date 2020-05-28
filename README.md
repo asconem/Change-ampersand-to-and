@@ -1,11 +1,6 @@
--Started off by solving the problem
--Next step testing initial implementation(s)
--Next step considering performance time
--Next step extending functionality to be from taking in one string to taking in list of type String
--Thought problem might be a trap, but decided to use as an opportunity to demonstrate how I think
-about edge cases, thoroughness, and execution
-
-   When I initially sat down to begin this challenge, I thought "this seems too easy...all I need to do 
+Repo with commit history for reference - https://github.com/asconem/Change-ampersand-to-and
+    
+    When I initially sat down to begin this challenge, I thought "this seems too easy...all I need to do 
 is use the replaceAll() method and I'll be on my way." I thought perhaps it was better to not do this 
 particular coding challenge because it might not seem as grand an undertaking as a linked list, or an
 iterator that returns only positive integers. However, the more I dug into this challenge the more I
