@@ -13,7 +13,7 @@ I started off as interpreting this problem as just that - "let me use the replac
 provided by Java and see if that will work." Sure enough, it did - case closed, turn in the code and
 wait for a call back, right? Not exactly - I knew there was more work to be done because there are 
 multiple ways to skin this particular cat. There also exists in Java the replace() method, the Pattern/
-Matcher way of replacement, and even the Apache Common Lang replace() method. The picture began to come
+Matcher way of replacement, and even the Apache Commons Lang replace() method. The picture began to come
 into focus - The best way to solve this problem was to write out all four implementations and test them 
 accordingly in order to find out which was the fastest.
 
